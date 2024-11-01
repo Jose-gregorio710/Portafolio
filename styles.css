@@ -1,0 +1,75 @@
+#seccion-principal{
+background-color: aliceblue;
+padding: 50px;
+margin: 50px;
+border: 5px;
+}
+
+body {
+background-color:bisque
+}
+
+ul{
+list-style: none;
+}
+
+.Navegacion{
+margin: 5px;
+}
+
+.Navegacion ul{
+display: flex;
+gap: 2em;
+}
+
+
+.acerca-imagen{
+text-align: center;
+}
+
+.acerca-imagen img{
+padding: 10px;
+margin: 10px;
+border: 5px;
+width: 400px;
+height: 400px;
+border-radius:50%;
+}
+
+.seccion-2{
+text-align: center;
+}
+
+.seccion-2 img{
+padding: 10px;
+margin: 10px;
+border: 5px;
+width: 200px;
+height: 100px;
+}
+
+header{
+    display: flex;
+background-color: brown;
+justify-content: space-between;
+color: black;
+}
+
+footer{
+    display: flex;
+    background-color: bisque;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    }
+
+    
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+header{
+background-color: yellow;
+}
+/* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+}
